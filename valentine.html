@@ -1,0 +1,51 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+        <h1>will you be my valentine Devonne Claire Serquiña Saguiped?</h1>
+        
+        
+        <div class="val">
+
+            <h1>❤</h1>
+
+        </div>
+
+        <div class="yes-no">
+            <div class="yess">
+       <a href="yes.html">YES</a>
+
+            </div>
+           
+        <div class="noo">
+      
+            <a href="no.html">NO</a>
+
+        </div>
+        </div>
+        
+        <script>
+const noBtn = document.querySelector(".noo");
+
+noBtn.addEventListener("mouseover", () => {
+    const x = Math.random() * (window.innerWidth - 100);
+    const y = Math.random() * (window.innerHeight - 50);
+    noBtn.style.position = "absolute";
+    noBtn.style.left = x + "px";
+    noBtn.style.top = y + "px";
+});
+</script>
+        
+
+</body>
+</html>
